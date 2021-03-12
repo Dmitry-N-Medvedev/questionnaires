@@ -1,0 +1,36 @@
+{
+  "name": "@dmitry-n-medvedev/questionnaires",
+  "version": "0.0.1",
+  "description": "a bunch of questionnaires",
+  "engines": {
+    "node": "=15.11.0",
+    "pnpm": "=5.18.6"
+  },
+  "engineStrict": true,
+  "volta": {
+    "node": "15.11.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitry-N-Medvedev/questionnaires.git"
+  },
+  "keywords": [
+    "questionnaires"
+  ],
+  "author": "Dmitry N. Medvedev <dmitry.medvedev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dmitry-N-Medvedev/questionnaires/issues"
+  },
+  "homepage": "https://github.com/Dmitry-N-Medvedev/questionnaires#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.21.0"
+  }
+}
